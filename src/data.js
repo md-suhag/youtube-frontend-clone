@@ -1,4 +1,4 @@
-export const API_KEY = "AIzaSyDPjTgosGMi8j3S2Y9K2aqN5EhClhCKfRM";
+export const API_KEY = import.meta.env.API_KEY;
 
 export const value_converter = (value) => {
   if (value >= 1000000) {
